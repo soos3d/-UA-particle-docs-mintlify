@@ -98,7 +98,16 @@
       ]
     },
     {
-      "group": "TECHNOLOGY",
+      "group": "CHAIN ABSTRACTION",
+      "pages": [
+        "landing/modular-l1/introduction",
+        "landing/modular-l1/universal-accounts",
+        "landing/modular-l1/universal-liquidity",
+        "landing/modular-l1/universal-gas"
+      ]
+    },
+    {
+      "group": "WALLET ABSTRACTION",
       "pages": [
         {
           "group": "Wallet Abstraction",
@@ -116,20 +125,6 @@
             "landing/wallet-abstraction/btc-connect"
           ]
         },
-        {
-          "group": "Coming Soon: Modular L1",
-          "pages": [
-            "landing/modular-l1/introduction",
-            "landing/modular-l1/universal-accounts",
-            "landing/modular-l1/universal-liquidity",
-            "landing/modular-l1/universal-gas"
-          ]
-        }
-      ]
-    },
-    {
-      "group": "TUTORIALS & DEMOS",
-      "pages": [
         "landing/tutorials-and-demos/list",
         "landing/tutorials-and-demos/repositories",
         "landing/tutorials-and-demos/videos"
@@ -154,8 +149,19 @@
       "group": "GETTING STARTED",
       "pages": [
         "guides/overview",
+        "guides/dashboard"
+      ]
+    },
+    {
+      "group": "CHAIN ABSTRACTION",
+      "pages": [
+        "guides/overview"
+      ]
+    },
+    {
+      "group": "WALLET ABSTRACTION",
+      "pages": [
         "guides/network-coverage",
-        "guides/dashboard",
         {
           "group": "Platform Coverage",
           "pages": [
@@ -168,26 +174,15 @@
             "guides/integrations/platform/flutter",
             "guides/integrations/platform/react"
           ]
-        }
-      ]
-    },
-    {
-      "group": "WALLET-AS-A-SERVICE",
-      "pages": [
-        "guides/wallet-as-a-service/waas/understanding-waas",
+        },
         {
-          "group": "Quickstarts (Connect)",
+          "group": "Quickstarts",
           "pages": [
             "guides/wallet-as-a-service/waas/connect/web-quickstart",
             "guides/wallet-as-a-service/waas/connect/ios-quickstart",
             "guides/wallet-as-a-service/waas/connect/android-quickstart",
             "guides/wallet-as-a-service/waas/connect/flutter-quickstart",
-            "guides/wallet-as-a-service/waas/connect/react-native-quickstart"
-          ]
-        },
-        {
-          "group": "Quickstarts (Auth)",
-          "pages": [
+            "guides/wallet-as-a-service/waas/connect/react-native-quickstart",
             "guides/wallet-as-a-service/waas/auth/web-quickstart",
             "guides/wallet-as-a-service/waas/auth/tg-quickstart",
             "guides/wallet-as-a-service/waas/auth/ios-quickstart",
@@ -199,6 +194,7 @@
         {
           "group": "SDKs Overview",
           "pages": [
+            "guides/wallet-as-a-service/waas/understanding-waas",
             "guides/integrations/waas/auth",
             "guides/integrations/waas/wallet",
             "guides/integrations/waas/connect"
@@ -213,56 +209,46 @@
           ]
         },
         {
-          "group": "Building with Particle's Partners",
+          "group": "Account Abstraction",
           "pages": [
-            "guides/integrations/partners/zetachain",
-            "guides/integrations/partners/alchemy",
-            "guides/integrations/partners/openfort",
-            "guides/integrations/partners/biconomy",
-            "guides/integrations/partners/bob"
-          ]
-        }
-      ]
-    },
-    {
-      "group": "ACCOUNT ABSTRACTION",
-      "pages": [
-        {
-          "group": "Quickstarts",
-          "pages": [
-            "guides/aa/web-aa",
-            "guides/aa/mobile-aa",
-            "guides/aa/bundler",
-            "guides/aa/paymaster"
+            {
+              "group": "Quickstarts",
+              "pages": [
+                "guides/aa/web-aa",
+                "guides/aa/mobile-aa",
+                "guides/aa/bundler",
+                "guides/aa/paymaster"
+              ]
+            },
+            {
+              "group": "Product Overviews",
+              "pages": [
+                "guides/integrations/aa/bundler",
+                "guides/integrations/aa/paymaster",
+                "guides/integrations/aa/keys"
+              ]
+            }
           ]
         },
         {
-          "group": "Product Overviews",
+          "group": "Configuration",
           "pages": [
-            "guides/integrations/aa/bundler",
-            "guides/integrations/aa/paymaster",
-            "guides/integrations/aa/keys"
-          ]
-        }
-      ]
-    },
-    {
-      "group": "CONFIGURATION",
-      "pages": [
-        {
-          "group": "Appearance",
-          "pages": [
-            "guides/configuration/appearance/auth",
-            "guides/configuration/appearance/wallet"
-          ]
-        },
-        {
-          "group": "Authentication",
-          "pages": [
-            "guides/configuration/auth/jwt",
-            "guides/configuration/auth/social-prompt",
-            "guides/configuration/auth/session-duration",
-            "guides/configuration/auth/password"
+            {
+              "group": "Appearance",
+              "pages": [
+                "guides/configuration/appearance/auth",
+                "guides/configuration/appearance/wallet"
+              ]
+            },
+            {
+              "group": "Authentication",
+              "pages": [
+                "guides/configuration/auth/jwt",
+                "guides/configuration/auth/social-prompt",
+                "guides/configuration/auth/session-duration",
+                "guides/configuration/auth/password"
+              ]
+            }
           ]
         }
       ]
