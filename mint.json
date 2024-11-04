@@ -107,7 +107,7 @@
       ]
     },
     {
-      "group": "ONBOARDING",
+      "group": "ONBOARDING SDKs",
       "pages": [
         "landing/wallet-abstraction/waas/overview",
         "landing/wallet-abstraction/waas/differentiators",
@@ -115,7 +115,7 @@
       ]
     },
     {
-      "group": "ACCOUNT ABSTRACTION",
+      "group": "ACCOUNT ABSTRACTION SDKs",
       "pages": [
         "landing/wallet-abstraction/waas/overview",
         "landing/wallet-abstraction/waas/bundler",
@@ -124,7 +124,7 @@
       ]
     },
     {
-      "group": "MISCELLANEOUS",
+      "group": "MORE RESOURCES",
       "pages": [
         "landing/more/audits",
         "landing/more/assets",
@@ -171,7 +171,7 @@
       ]
     },
     {
-      "group": "ONBOARDING",
+      "group": "ONBOARDING SDKs",
       "pages": [
         {
           "group": "SDKs Overview",
@@ -229,7 +229,7 @@
       ]
     },
     {
-      "group": "ACCOUNT ABSTRACTION",
+      "group": "ACCOUNT ABSTRACTION SDKs",
       "pages": [
         {
           "group": "Quickstarts",
