@@ -107,7 +107,7 @@
       ]
     },
     {
-      "group": "ONBOARDING SDKs",
+      "group": "USER ONBOARDING",
       "pages": [
         "landing/wallet-abstraction/waas/overview",
         "landing/wallet-abstraction/waas/differentiators",
@@ -115,7 +115,7 @@
       ]
     },
     {
-      "group": "ACCOUNT ABSTRACTION SDKs",
+      "group": "ACCOUNT ABSTRACTION",
       "pages": [
         "landing/wallet-abstraction/waas/overview",
         "landing/wallet-abstraction/waas/bundler",
@@ -171,7 +171,7 @@
       ]
     },
     {
-      "group": "ONBOARDING SDKs",
+      "group": "USER ONBOARDING",
       "pages": [
         {
           "group": "SDKs Overview",
@@ -229,7 +229,7 @@
       ]
     },
     {
-      "group": "ACCOUNT ABSTRACTION SDKs",
+      "group": "ACCOUNT ABSTRACTION",
       "pages": [
         {
           "group": "Quickstarts",
@@ -267,7 +267,7 @@
           ]
         },
         {
-          "group": "UniversalX SDK",
+          "group": "UniversalX",
           "pages": [
             "api-reference/connect/mobile/android"
 
