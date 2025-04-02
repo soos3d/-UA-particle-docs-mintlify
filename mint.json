@@ -50,13 +50,22 @@
   },
   "tabs": [
     {
-      "name": "Guides",
+      "name": "Universal Accounts Guides",
+      "url": "ua-guides"
+    },
+    {
+      "name": "Universal Accounts SDK",
+      "url": "ua-api-reference"
+    },
+    {
+      "name": "Onboarding Guides",
       "url": "guides"
     },
     {
-      "name": "APIs & SDKs",
+      "name": "Onboarding APIs & SDKs",
       "url": "api-reference"
     },
+
     {
       "name": "Changelog",
       "url": "changelog"
@@ -144,6 +153,29 @@
     {
       "group": "GETTING STARTED",
       "pages": [
+        "ua-guides/overview",
+        "ua-guides/supported-chains",
+        {
+          "group": "Quickstart",
+          "pages": [
+            "ua-guides/quickstart/web"
+          ]
+        }
+
+      ]
+      
+    },
+    {
+      "group": "CHAIN ABSTRACTION",
+      "pages": [
+        "ua-guides/universal-accounts",
+        "ua-guides/universal-liquidity"
+
+      ]
+    },
+    {
+      "group": "GETTING STARTED",
+      "pages": [
         "guides/overview",
         "guides/dashboard",
         "guides/network-coverage",
@@ -160,14 +192,6 @@
             "guides/integrations/platform/react"
           ]
         }
-      ]
-    },
-    {
-      "group": "CHAIN ABSTRACTION",
-      "pages": [
-        "guides/overview",
-        "guides/universal-accounts",
-        "guides/universalX"
       ]
     },
     {
@@ -251,31 +275,38 @@
       ]
     },
     {
-      "group": "APIs & SDKs",
+      "group": "Universal Accounts APIs & SDKs",
       "pages": [
-        "api-reference/introduction"
+        "ua-api-reference/introduction"
       ]
     },
     {
-      "group": "CHAIN ABSTRACTION",
+      "group": "Universal Accounts SDK",
       "pages": [
-        "api-reference/connect/introduction",
+        "ua-api-reference/ua-sdk/introduction",
         {
           "group": "Universal Accouts SDK",
           "pages": [
-            "api-reference/connect/desktop/web"
+            "ua-api-reference/ua-sdk/desktop/web"
           ]
         },
-        {
-          "group": "UniversalX",
-          "pages": [
-            "api-reference/connect/mobile/android"
-
-          ]
-        },
-        "api-reference/connect/faq"
+        "ua-api-reference/ua-sdk/faq"
       ]
     },
+    {
+      "group": "Universal Accounts APIs",
+      "pages": [
+        "ua-api-reference/ua-api/introduction",
+        {
+          "group": "APIs",
+          "pages": [
+            "ua-api-reference/ua-api/getaccount"
+          ]
+        },
+        "ua-api-reference/ua-api/faq"
+      ]
+    },
+    
     {
       "group": "PARTICLE CONNECT",
       "pages": [
